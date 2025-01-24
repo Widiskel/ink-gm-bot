@@ -8,7 +8,7 @@ import moment from "moment-timezone";
 import { ethers } from "ethers";
 
 export class Helper {
-  static botName = "FRACTION AI BATTLE BOT";
+  static botName = "INK DAILY GM BOT";
 
   static delay = (ms, acc, msg, obj) => {
     return new Promise(async (resolve) => {
