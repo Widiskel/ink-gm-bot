@@ -1,0 +1,33 @@
+{
+  "name": "ink-gm-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "JUST GM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ink",
+    "ink-gm-bot",
+    "inkochain-bot",
+    "inkochain-gm-bot",
+    "widiskel"
+  ],
+  "author": "Widiskel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widiskel/ink-gm-bot.git"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "^6.13.2",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0"
+  }
+}
